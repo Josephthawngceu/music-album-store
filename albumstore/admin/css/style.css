@@ -1,0 +1,348 @@
+html {
+  background: #2e2e2e;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 800px;
+  background:  #c0c0c0
+  ;
+  border: 4px solid # #400040
+  ;
+  margin: 20px auto;
+}
+h1 {
+  padding: 10px;
+  font-size: 21px;
+  background: #808080;
+  margin: 0;
+  color: #000000;
+  text-align: center;
+}
+h2 {
+  padding: 10px;
+  font-size: 18px;
+  background: #c0c0c0;
+  margin: 0;
+  color: #ff0080;
+  text-align: center;
+}
+.info {
+  background: #808040;
+  padding: 8px;
+  text-align: right;
+}
+.info a {
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  border-bottom: 1px dotted #000000;
+}
+
+.info a:hover {
+  border-bottom: 1px solid #000000;
+}
+.sidebar {
+  float: left;
+  width: 240px;
+}
+.cats {
+  list-style: none;
+  padding: 0;
+}
+
+.cats li a {
+  display: block;
+  font-size: 15px;
+  padding: 8px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cats li a:hover {
+  background: #efefef;
+}
+.main {
+  float: right;
+  width: 500px;
+  background: #fff;
+}
+
+.album {
+  list-style: none;
+  margin: 15px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.album li {
+  width: 190px;
+  text-align: center;
+  height: 240px;
+  float: left;
+  margin: 20px 10px;
+  font-size: 15px;
+}
+
+.album b {
+  display: block;
+  margin: 5px 0;
+  font-weight: normal;
+}
+
+.album i {
+  color:  #2e4053
+  ;
+}
+
+a.add-to-cart {
+  font-size: 13px;
+  display: block;
+  background: #1ABC9C;
+  color: #fff;
+  padding: 0px 0;
+  margin: 5px 0px;
+}
+
+a.del {
+  color: #D35400;
+}
+
+.footer {
+  clear: both;
+  background: #95A5A6;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px;
+  text-align: center;
+  border-top: 1px solid #7F8C8D;
+}
+
+.detail {
+  padding: 20px;
+  background: #fff;
+}
+
+.detail .back {
+  float: right;
+}
+
+.detail a.add-to-cart {
+  margin: 0;
+  width: 160px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table {
+  margin: 20px;
+  border-spacing: 1px; 
+  background:  #2e4053
+  ; 
+} 
+
+td { 
+  background: white; 
+  border-collapse: collapse; 
+  padding: 8px;
+} 
+
+th { 
+  color: white;
+  padding: 8px; 
+}
+
+
+.order-form {
+  margin: 20px;
+}
+
+.order-form h2 {
+  margin: 40px 0 10px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #ddd;
+  font-size: 18px;
+  color:  #2e4053
+  ;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+}
+
+input[type=text],
+input[type=password],
+select {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #ddd;
+  padding: 6px;
+  width: 300px;
+  background: #fff;
+}
+
+
+input[type=submit] {
+  padding: 10px 24px;
+  margin-right: 10px;
+}
+
+.msg {
+  background:  #2e4053
+  ;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin: 50px 20px;
+}
+
+.msg a {
+  color: #eee;
+  border-bottom: 1px dotted #fff;
+}
+
+label.error {
+	color: #900;
+	font-size: 13px;
+	font-style: italic;
+	margin-top: -1px;
+}
+
+.search {
+	margin-top: 20px;
+}
+.search input[type=text] {
+	width: 180px;
+	margin-left: 8px;
+}
+.search input[type=submit] {
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background: transparent url(../images/search.png) no-repeat center center;
+	border: 0 none;
+	padding: 0;
+	margin: 0 0 0 -5px;
+}
+
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #808000;
+}
+
+ul.menu li {
+  float: left;
+  border-right: 1px solid #FA8072;
+}
+
+ul.menu a {
+  display: block;
+  padding: 10px 53px;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul.menu a:hover {
+  background: #1ABC9C;
+}
+
+
+.slider{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.slider figure img{
+    float: left;
+    width: 1350px;
+}
+
+.slider figure{
+	position: relative;
+	width: 6750%;
+	height: 400px;
+	margin: 0;
+	left: 0;
+	animation: 6s moveit infinite;
+
+}
+.form-container{
+	('border', '#e66262 1px solid')
+}
+
+
+
+.m1{
+	width: 300px;
+	
+	float: left;
+	
+	
+	font-size: 16px;
+
+}
+.m2{
+	width: 300px;
+	
+	float: right;
+		
+	font-size: 16px;
+}
+.faq1, .faq2, .faq3, .faq4, .faq5, .faq6, .faq7, .faq8, .faq9, .faq10{
+	width: 750px;
+	height: auto;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+.ans1, .ans2, .ans3, .ans4, .ans5, .ans6, .ans7, .ans8, .ans9, .ans10{
+	opacity: 0;
+}
+.faq1:hover .ans1{
+	opacity: 1;
+
+}
+.faq2:hover .ans2{
+	opacity: 1;
+
+}
+.faq3:hover .ans3{
+	opacity: 1;
+
+}
+.faq4:hover .ans4{
+	opacity: 1;
+
+}
+.faq5:hover .ans5{
+	opacity: 1;
+
+}
+.faq6:hover .ans6{
+	opacity: 1;
+
+}
+.faq7:hover .ans7{
+	opacity: 1;
+
+}
+.faq8:hover .ans8{
+	opacity: 1;
+
+}
+.faq9:hover .ans9{
+	opacity: 1;
+
+}
+.faq10:hover .ans10{
+	opacity: 1;
+
+}
+
+
